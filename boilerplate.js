@@ -9,6 +9,7 @@ let target_directory_map = {
     "router.ts.tpl": path.join(app_path, "frontend", "src"),
     "package.json.tpl": app_path,
     "Home.vue.tpl": path.join(app_path, "frontend", "src", "pages"),
+    "TodoDetail.vue.tpl": path.join(app_path, "frontend", "src", "pages"),
 };
 
 function replaceTemplate(file_path, data) {
